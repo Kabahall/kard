@@ -9,11 +9,47 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="png\10_of_hearts.png" />
+    <None Remove="png\2_of_hearts.png" />
+    <None Remove="png\3_of_hearts.png" />
+    <None Remove="png\4_of_hearts.png" />
+    <None Remove="png\5_of_hearts.png" />
+    <None Remove="png\6_of_hearts.png" />
+    <None Remove="png\7_of_hearts.png" />
+    <None Remove="png\8_of_hearts.png" />
+    <None Remove="png\9_of_hearts.png" />
+    <None Remove="png\ace_of_hearts.png" />
+    <None Remove="png\images.jpeg" />
+    <None Remove="png\images.png" />
+    <None Remove="png\images1.jpeg" />
+    <None Remove="png\jack_of_hearts.png" />
+    <None Remove="png\king_of_hearts.png" />
+    <None Remove="png\queen_of_hearts.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="System.Linq" Version="4.3.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="png\" />
+    <Resource Include="png\10_of_hearts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="png\2_of_hearts.png" />
+    <Resource Include="png\3_of_hearts.png" />
+    <Resource Include="png\4_of_hearts.png" />
+    <Resource Include="png\5_of_hearts.png" />
+    <Resource Include="png\6_of_hearts.png" />
+    <Resource Include="png\7_of_hearts.png" />
+    <Resource Include="png\8_of_hearts.png" />
+    <Resource Include="png\9_of_hearts.png" />
+    <Resource Include="png\ace_of_hearts.png" />
+    <Resource Include="png\images.jpeg" />
+    <Resource Include="png\images.png" />
+    <Resource Include="png\images1.jpeg" />
+    <Resource Include="png\jack_of_hearts.png" />
+    <Resource Include="png\king_of_hearts.png" />
+    <Resource Include="png\queen_of_hearts.png" />
   </ItemGroup>
 
 </Project>

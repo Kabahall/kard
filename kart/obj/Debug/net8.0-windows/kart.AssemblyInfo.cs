@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kart")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed4e94fc6ef7040a7905c550da5457786682404a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f1b8c957c243ca54df04acd6097e28bcf5e545c")]
 [assembly: System.Reflection.AssemblyProductAttribute("kart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kart")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
