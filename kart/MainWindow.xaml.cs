@@ -54,16 +54,14 @@ namespace CardShufflingApp
 
         private void SortdNameKeyCards()
         {
-            // Сортируем текущую колоду по имени и ключу
+           
             var sortedDeck = originalDeck.OrderBy(p => p.Name).ThenBy(p => p.Key).ToList();
 
-            // Обновляем текущую колоду
             currentDeck = sortedDeck;
 
-            // Выводим отсортированную колоду на экран
+            
             DisplayCards();
 
-            // Для отладки - выводим в консоль
             foreach (var p in currentDeck)
                 Console.WriteLine($"{p.Name} - {p.Key}");
         }
@@ -82,17 +80,12 @@ namespace CardShufflingApp
             DisplayCards();
         }
 
-        // Обработчики событий для кнопок
         private void ShuffleButton_Click(object sender, RoutedEventArgs e)
         {
             ShuffleCards();
         }
 
-        //private void ShuffleCards()
-        //{
-        //    throw new NotImplementedException();
-        //}
-
+     
         private void SortButton_Click(object sender, RoutedEventArgs e)
         {
             //SortdNameCards();
